@@ -4,7 +4,7 @@ set -eu
 xkb_dir_from=$(dirname "$0")
 xkb_dir_to="/usr/share/X11/xkb"
 layout="he_phon"
-description="Phonetic Hebrew"
+description="Phonetic Hebrew (N.E. version)"
 mods=""
 description_mods=""
 variants=""
