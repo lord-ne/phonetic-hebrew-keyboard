@@ -5,8 +5,11 @@
   "company": "N.E.",
   "localeId": "0000040d",
   "version": "1.0",
-  "qwertyShortcuts": true,
+  "singletonKeys": [
+    [ "Alt_R", "AltGr" ]
+  ],
   "shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
+  "qwertyShortcuts": true,
   "keys": [
     { "pos": "1", "shortcutPos": "1", "letters": [ "1", "!", "", "" ], "capslock": false },
     { "pos": "2", "shortcutPos": "2", "letters": [ "2", "@", "", "" ], "capslock": false },

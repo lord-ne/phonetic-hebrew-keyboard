@@ -1,3 +1,5 @@
+klfc: warning: singleton keys are not supported in KLC.
+klfc: warning: the position ‘Alt_R’ is not supported in keylayout.
 klfc: warning: the letter ‘ק’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘ש’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘ע’ is not supported on the shiftstate ‘None’ in TMK.
@@ -62,3 +64,4 @@ klfc: warning: the letter ‘lig:ףּ’ is not supported on the shiftstate ‘S
 klfc: warning: the letter ‘ָ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘lig:ךּ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘ְ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
+klfc: warning: remapping Alt_R is not supported in AHK.

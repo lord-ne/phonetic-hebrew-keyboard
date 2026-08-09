@@ -36,7 +36,7 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
      TAB,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,LBRC,RBRC,     BSLS,      DEL, END,PGDN,      P7,  P8,  P9,PPLS,
     CAPS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,SCLN,QUOT,     NUHS, ENT,                          P4,  P5,  P6,PCMM,
      FN0,BSLS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,COMM, DOT,SLSH,       RO, FN1,            UP,           P1,  P2,  P3,PENT,
-    LCTL,LGUI,LALT,MHEN,           SPC,          HENK,KANA,RALT,RGUI, APP,RCTL,     LEFT,DOWN,RGHT,      P0,      DOT,PEQL
+    LCTL,LGUI,LALT,MHEN,           SPC,          HENK,KANA,  NO,RGUI, APP,RCTL,     LEFT,DOWN,RGHT,      P0,      DOT,PEQL
     ),
     // Shift
     [1] = UNIMAP(

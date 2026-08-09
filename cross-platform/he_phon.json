@@ -5,6 +5,9 @@
   "company": "N.E.",
   "localeId": "0000040d",
   "version": "1.0",
+  "singletonKeys": [
+    [ "Alt_R", "AltGr" ]
+  ],
   "shiftlevels": [ "None", "Shift", "AltGr", "Shift+AltGr" ],
   "keys": [
     { "pos": "1", "shortcutPos": "1", "letters": [ "1", "!", "", "" ], "capslock": false },

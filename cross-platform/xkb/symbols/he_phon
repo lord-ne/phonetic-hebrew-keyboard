@@ -53,4 +53,5 @@ xkb_symbols "basic" {
     key <SPCE> { [        space,        space,   VoidSymbol,   VoidSymbol ] };
     key <LSGT> { [    backslash,          bar,   VoidSymbol,   VoidSymbol ] };
     key <KPDL> { [       period,       period,   VoidSymbol,   VoidSymbol ] };
+    include "level3(ralt_switch)"
 };
