@@ -174,411 +174,348 @@ DeadKey(baseChar, table, name := "") {
 #if
 SC002::Send {Blind}{U+0031} ; 1
 +SC002::Send {Blind}{U+0021} ; !
-^SC002::Return
-!^SC002::Return
-+!^SC002::Return
+>!<^SC002::Return
++>!<^SC002::Return
 
 ; QWERTY 2
 #if
 SC003::Send {Blind}{U+0032} ; 2
 +SC003::Send {Blind}{U+0040} ; @
-^SC003::Return
-!^SC003::Return
-+!^SC003::Return
+>!<^SC003::Return
++>!<^SC003::Return
 
 ; QWERTY 3
 #if
 SC004::Send {Blind}{U+0033} ; 3
 +SC004::Send {Blind}{U+0023} ; #
-^SC004::Return
-!^SC004::Send {Blind}{U+20ac} ; €
-+!^SC004::Return
+>!<^SC004::Send {Blind}{U+20ac} ; €
++>!<^SC004::Return
 
 ; QWERTY 4
 #if
 SC005::Send {Blind}{U+0034} ; 4
 +SC005::Send {Blind}{U+0024} ; $
-^SC005::Return
-!^SC005::Send {Blind}{U+20aa} ; ₪
-+!^SC005::Return
+>!<^SC005::Send {Blind}{U+20aa} ; ₪
++>!<^SC005::Return
 
 ; QWERTY 5
 #if
 SC006::Send {Blind}{U+0035} ; 5
 +SC006::Send {Blind}{U+0025} ; %
-^SC006::Return
-!^SC006::Send {Blind}{U+00b0} ; °
-+!^SC006::Return
+>!<^SC006::Send {Blind}{U+00b0} ; °
++>!<^SC006::Return
 
 ; QWERTY 6
 #if
 SC007::Send {Blind}{U+0036} ; 6
 +SC007::Send {Blind}{U+005e} ; ^
-^SC007::Return
-!^SC007::Return
-+!^SC007::Return
+>!<^SC007::Return
++>!<^SC007::Return
 
 ; QWERTY 7
 #if
 SC008::Send {Blind}{U+0037} ; 7
 +SC008::Send {Blind}{U+0026} ; &
-^SC008::Return
-!^SC008::Return
-+!^SC008::Return
+>!<^SC008::Return
++>!<^SC008::Return
 
 ; QWERTY 8
 #if
 SC009::Send {Blind}{U+0038} ; 8
 +SC009::Send {Blind}{U+002a} ; *
-^SC009::Return
-!^SC009::Send {Blind}{U+00d7} ; ×
-+!^SC009::Return
+>!<^SC009::Send {Blind}{U+00d7} ; ×
++>!<^SC009::Return
 
 ; QWERTY 9
 #if
 SC00a::Send {Blind}{U+0039} ; 9
 +SC00a::Send {Blind}{U+0028} ; (
-^SC00a::Return
-!^SC00a::Return
-+!^SC00a::Return
+>!<^SC00a::Return
++>!<^SC00a::Return
 
 ; QWERTY 0
 #if
 SC00b::Send {Blind}{U+0030} ; 0
 +SC00b::Send {Blind}{U+0029} ; )
-^SC00b::Return
-!^SC00b::Return
-+!^SC00b::Return
+>!<^SC00b::Return
++>!<^SC00b::Return
 
 ; QWERTY -
 #if
 SC00c::Send {Blind}{U+002d} ; -
 +SC00c::Send {Blind}{U+005f} ; _
-^SC00c::Return
-!^SC00c::Send {Blind}{U+200c} ; ‌
-+!^SC00c::Return
+>!<^SC00c::Send {Blind}{U+200c} ; ‌
++>!<^SC00c::Return
 
 ; QWERTY +
 #if
 SC00d::Send {Blind}{U+003d} ; =
 +SC00d::Send {Blind}{U+002b} ; +
-^SC00d::Return
-!^SC00d::Send {Blind}{U+200d} ; ‍
-+!^SC00d::Return
+>!<^SC00d::Send {Blind}{U+200d} ; ‍
++>!<^SC00d::Return
 
 ; QWERTY Q
 #if
 SC010::Send {Blind}{U+05e7} ; ק
 +SC010::Return
-^SC010::Return
-!^SC010::Send {Blind}{U+05b8} ; ָ
-+!^SC010::Send {Blind}{U+05c7} ; ׇ
+>!<^SC010::Send {Blind}{U+05b8} ; ָ
++>!<^SC010::Send {Blind}{U+05c7} ; ׇ
 
 ; QWERTY W
 #if
 SC011::Send {Blind}{U+05e9} ; ש
 +SC011::Send {Blind}{U+05e1} ; ס
-^SC011::Return
-!^SC011::Send {Blind}{U+05e9}{U+05c1} ; שׁ
-+!^SC011::Send {Blind}{U+05e9}{U+05c2} ; שׂ
+>!<^SC011::Send {Blind}{U+05e9}{U+05c1} ; שׁ
++>!<^SC011::Send {Blind}{U+05e9}{U+05c2} ; שׂ
 
 ; QWERTY E
 #if
 SC012::Send {Blind}{U+05e2} ; ע
 +SC012::Send {Blind}{U+05d0} ; א
-^SC012::Return
-!^SC012::Send {Blind}{U+05b6} ; ֶ
-+!^SC012::Send {Blind}{U+05b5} ; ֵ
+>!<^SC012::Send {Blind}{U+05b6} ; ֶ
++>!<^SC012::Send {Blind}{U+05b5} ; ֵ
 
 ; QWERTY R
 #if
 SC013::Send {Blind}{U+05e8} ; ר
 +SC013::Return
-^SC013::Return
-!^SC013::Return
-+!^SC013::Return
+>!<^SC013::Return
++>!<^SC013::Return
 
 ; QWERTY T
 #if
 SC014::Send {Blind}{U+05ea} ; ת
 +SC014::Send {Blind}{U+05d8} ; ט
-^SC014::Return
-!^SC014::Send {Blind}{U+05ea}{U+05bc} ; תּ
-+!^SC014::Return
+>!<^SC014::Send {Blind}{U+05ea}{U+05bc} ; תּ
++>!<^SC014::Return
 
 ; QWERTY Y
 #if
 SC015::Send {Blind}{U+05d9} ; י
 +SC015::Return
-^SC015::Return
-!^SC015::Send {Blind}{U+05b5} ; ֵ
-+!^SC015::Return
+>!<^SC015::Send {Blind}{U+05b5} ; ֵ
++>!<^SC015::Return
 
 ; QWERTY U
 #if
 SC016::Send {Blind}{U+05d5} ; ו
 +SC016::Send {Blind}{U+05d5}{U+05bc} ; וּ
-^SC016::Return
-!^SC016::Send {Blind}{U+05bb} ; ֻ
-+!^SC016::Return
+>!<^SC016::Send {Blind}{U+05bb} ; ֻ
++>!<^SC016::Return
 
 ; QWERTY I
 #if
 SC017::Send {Blind}{U+05d9} ; י
 +SC017::Return
-^SC017::Return
-!^SC017::Send {Blind}{U+05b4} ; ִ
-+!^SC017::Return
+>!<^SC017::Send {Blind}{U+05b4} ; ִ
++>!<^SC017::Return
 
 ; QWERTY O
 #if
 SC018::Send {Blind}{U+05d5} ; ו
 +SC018::Send {Blind}{U+05d5}{U+05b9} ; וֹ
-^SC018::Return
-!^SC018::Send {Blind}{U+05b9} ; ֹ
-+!^SC018::Send {Blind}{U+05c7} ; ׇ
+>!<^SC018::Send {Blind}{U+05b9} ; ֹ
++>!<^SC018::Send {Blind}{U+05c7} ; ׇ
 
 ; QWERTY P
 #if
 SC019::Send {Blind}{U+05e4} ; פ
 +SC019::Send {Blind}{U+05e3} ; ף
-^SC019::Return
-!^SC019::Send {Blind}{U+05e4}{U+05bc} ; פּ
-+!^SC019::Send {Blind}{U+05e3}{U+05bc} ; ףּ
+>!<^SC019::Send {Blind}{U+05e4}{U+05bc} ; פּ
++>!<^SC019::Send {Blind}{U+05e3}{U+05bc} ; ףּ
 
 ; QWERTY [
 #if
 SC01a::Send {Blind}{U+005b} ; [
 +SC01a::Send {Blind}{U+007b} ; {
-^SC01a::Return
-!^SC01a::Send {Blind}{U+200e} ; ‎
-+!^SC01a::Return
+>!<^SC01a::Send {Blind}{U+200e} ; ‎
++>!<^SC01a::Return
 
 ; QWERTY ]
 #if
 SC01b::Send {Blind}{U+005d} ; ]
 +SC01b::Send {Blind}{U+007d} ; }
-^SC01b::Return
-!^SC01b::Send {Blind}{U+200f} ; ‏
-+!^SC01b::Return
+>!<^SC01b::Send {Blind}{U+200f} ; ‏
++>!<^SC01b::Return
 
 ; QWERTY A
 #if
 SC01e::Send {Blind}{U+05d0} ; א
 +SC01e::Send {Blind}{U+05e2} ; ע
-^SC01e::Return
-!^SC01e::Send {Blind}{U+05b7} ; ַ
-+!^SC01e::Send {Blind}{U+05b8} ; ָ
+>!<^SC01e::Send {Blind}{U+05b7} ; ַ
++>!<^SC01e::Send {Blind}{U+05b8} ; ָ
 
 ; QWERTY S
 #if
 SC01f::Send {Blind}{U+05e1} ; ס
 +SC01f::Send {Blind}{U+05e9} ; ש
-^SC01f::Return
-!^SC01f::Return
-+!^SC01f::Return
+>!<^SC01f::Return
++>!<^SC01f::Return
 
 ; QWERTY D
 #if
 SC020::Send {Blind}{U+05d3} ; ד
 +SC020::Return
-^SC020::Return
-!^SC020::Return
-+!^SC020::Return
+>!<^SC020::Return
++>!<^SC020::Return
 
 ; QWERTY F
 #if
 SC021::Send {Blind}{U+05e4} ; פ
 +SC021::Send {Blind}{U+05e3} ; ף
-^SC021::Return
-!^SC021::Send {Blind}{U+05e4}{U+05bc} ; פּ
-+!^SC021::Send {Blind}{U+05e3}{U+05bc} ; ףּ
+>!<^SC021::Send {Blind}{U+05e4}{U+05bc} ; פּ
++>!<^SC021::Send {Blind}{U+05e3}{U+05bc} ; ףּ
 
 ; QWERTY G
 #if
 SC022::Send {Blind}{U+05d2} ; ג
 +SC022::Return
-^SC022::Return
-!^SC022::Return
-+!^SC022::Return
+>!<^SC022::Return
++>!<^SC022::Return
 
 ; QWERTY H
 #if
 SC023::Send {Blind}{U+05d4} ; ה
 +SC023::Return
-^SC023::Return
-!^SC023::Return
-+!^SC023::Return
+>!<^SC023::Return
++>!<^SC023::Return
 
 ; QWERTY J
 #if
 SC024::Send {Blind}{U+05d8} ; ט
 +SC024::Send {Blind}{U+05ea} ; ת
-^SC024::Return
-!^SC024::Return
-+!^SC024::Return
+>!<^SC024::Return
++>!<^SC024::Return
 
 ; QWERTY K
 #if
 SC025::Send {Blind}{U+05db} ; כ
 +SC025::Send {Blind}{U+05da} ; ך
-^SC025::Return
-!^SC025::Send {Blind}{U+05db}{U+05bc} ; כּ
-+!^SC025::Send {Blind}{U+05da}{U+05bc} ; ךּ
+>!<^SC025::Send {Blind}{U+05db}{U+05bc} ; כּ
++>!<^SC025::Send {Blind}{U+05da}{U+05bc} ; ךּ
 
 ; QWERTY L
 #if
 SC026::Send {Blind}{U+05dc} ; ל
 +SC026::Return
-^SC026::Return
-!^SC026::Return
-+!^SC026::Return
+>!<^SC026::Return
++>!<^SC026::Return
 
 ; QWERTY ;
 #if
 SC027::Send {Blind}{U+003b} ; ;
 +SC027::Send {Blind}{U+003a} ; :
-^SC027::Return
-!^SC027::Return
-+!^SC027::Return
+>!<^SC027::Return
++>!<^SC027::Return
 
 ; QWERTY '
 #if
 SC028::Send {Blind}{U+0027} ; '
 +SC028::Send {Blind}{U+0022} ; "
-^SC028::Return
-!^SC028::Send {Blind}{U+05b0} ; ְ
-+!^SC028::
-; ְ
-if (DeadKeys.item("ְ") == "") {
-  DeadKeys.item("ְ") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("ְ").item("ֶ") := "ֱ"
-  DeadKeys.item("ְ").item("ַ") := "ֲ"
-  DeadKeys.item("ְ").item("ָ") := "ֳ"
-  DeadKeys.item("ְ").item("ע") := "ֱ"
-  DeadKeys.item("ְ").item("א") := "ֲ"
-  DeadKeys.item("ְ").item("ק") := "ֳ"
-  DeadKeys.item("ְ").item(" ") := "ְ"
-}
-DeadKey("ְ", DeadKeys.item("ְ"), "cdk:ְ")
-Return
+>!<^SC028::Return
++>!<^SC028::Send {Blind}{U+05b0} ; ְ
 
 ; QWERTY ~
 #if
 SC029::Send {Blind}{U+0060} ; `
 +SC029::Send {Blind}{U+007e} ; ~
-^SC029::Return
-!^SC029::Return
-+!^SC029::Return
+>!<^SC029::Return
++>!<^SC029::Return
 
 ; QWERTY \
 #if
 SC02b::Send {Blind}{U+005c} ; \
 +SC02b::Send {Blind}{U+007c} ; |
-^SC02b::Return
-!^SC02b::Return
-+!^SC02b::Return
+>!<^SC02b::Return
++>!<^SC02b::Return
 
 ; QWERTY Z
 #if
 SC02c::Send {Blind}{U+05d6} ; ז
 +SC02c::Return
-^SC02c::Return
-!^SC02c::Return
-+!^SC02c::Return
+>!<^SC02c::Return
++>!<^SC02c::Return
 
 ; QWERTY X
 #if
 SC02d::Send {Blind}{U+05d7} ; ח
 +SC02d::Return
-^SC02d::Return
-!^SC02d::Return
-+!^SC02d::Return
+>!<^SC02d::Return
++>!<^SC02d::Return
 
 ; QWERTY C
 #if
 SC02e::Send {Blind}{U+05e6} ; צ
 +SC02e::Send {Blind}{U+05e5} ; ץ
-^SC02e::Return
-!^SC02e::Return
-+!^SC02e::Return
+>!<^SC02e::Return
++>!<^SC02e::Return
 
 ; QWERTY V
 #if
 SC02f::Send {Blind}{U+05d5} ; ו
 +SC02f::Return
-^SC02f::Return
-!^SC02f::Return
-+!^SC02f::Return
+>!<^SC02f::Return
++>!<^SC02f::Return
 
 ; QWERTY B
 #if
 SC030::Send {Blind}{U+05d1} ; ב
 +SC030::Return
-^SC030::Return
-!^SC030::Send {Blind}{U+05d1}{U+05bc} ; בּ
-+!^SC030::Return
+>!<^SC030::Send {Blind}{U+05d1}{U+05bc} ; בּ
++>!<^SC030::Return
 
 ; QWERTY N
 #if
 SC031::Send {Blind}{U+05e0} ; נ
 +SC031::Send {Blind}{U+05df} ; ן
-^SC031::Return
-!^SC031::Return
-+!^SC031::Return
+>!<^SC031::Return
++>!<^SC031::Return
 
 ; QWERTY M
 #if
 SC032::Send {Blind}{U+05de} ; מ
 +SC032::Send {Blind}{U+05dd} ; ם
-^SC032::Return
-!^SC032::Return
-+!^SC032::Return
+>!<^SC032::Return
++>!<^SC032::Return
 
 ; QWERTY ,
 #if
 SC033::Send {Blind}{U+002c} ; ,
 +SC033::Send {Blind}{U+003c} ; <
-^SC033::Return
-!^SC033::Return
-+!^SC033::Return
+>!<^SC033::Return
++>!<^SC033::Return
 
 ; QWERTY .
 #if
 SC034::Send {Blind}{U+002e} ; .
 +SC034::Send {Blind}{U+003e} ; >
-^SC034::Return
-!^SC034::Send {Blind}{U+05bc} ; ּ
-+!^SC034::Return
+>!<^SC034::Send {Blind}{U+05bc} ; ּ
++>!<^SC034::Return
 
 ; QWERTY /
 #if
 SC035::Send {Blind}{U+002f} ; /
 +SC035::Send {Blind}{U+003f} ; ?
-^SC035::Return
-!^SC035::Send {Blind}{U+00f7} ; ÷
-+!^SC035::Return
+>!<^SC035::Send {Blind}{U+00f7} ; ÷
++>!<^SC035::Return
 
 ; QWERTY Space
 #if
 SC039::Send {Blind}{U+0020} ;  
 +SC039::Send {Blind}{U+0020} ;  
-^SC039::Return
-!^SC039::Return
-+!^SC039::Return
+>!<^SC039::Return
++>!<^SC039::Return
 
 ; QWERTY Iso
 #if
 SC056::Send {Blind}{U+005c} ; \
 +SC056::Send {Blind}{U+007c} ; |
-^SC056::Return
-!^SC056::Return
-+!^SC056::Return
+>!<^SC056::Return
++>!<^SC056::Return
 
 ; QWERTY KP_Dec
 #if
 SC053::Send {Blind}{U+002e} ; .
 +SC053::Send {Blind}{U+002e} ; .
-^SC053::Return
-!^SC053::Return
-+!^SC053::Return
+>!<^SC053::Return
++>!<^SC053::Return
