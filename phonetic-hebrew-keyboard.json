@@ -1,27 +1,28 @@
 [
   {
-    "name": "Phonetic Hebrew Keyboard v3",
-    "author": "N.E."
+    "name": "Phonetic Hebrew Keyboard",
+    "author": "N.E.",
+    "_comment": "For use in https://editor.keyboard-tools.xyz/"
   },
   [
     "~\n`",
     "!\n1",
     "@\n2",
     {
-      "t": "#000000\n\n#0000ff"
+      "t": "#000000\n\n\n#0000ff"
     },
-    "#\n3\n€",
-    "$\n4\n₪",
-    "%\n5\n°",
+    "#\n3\n\n€",
+    "$\n4\n\n₪",
+    "%\n5\n\n°",
     {
       "t": "#000000"
     },
     "^\n6",
     "&\n7",
     {
-      "t": "#000000\n\n#0000ff"
+      "t": "#000000\n\n\n#0000ff"
     },
-    "*\n8\n×",
+    "*\n8\n\n×",
     {
       "t": "#000000"
     },
@@ -36,8 +37,8 @@
         1
       ]
     },
-    "_\n-\n\nZWNJ",
-    "+\n=\n\nZWJ",
+    "_\n-\n\n",
+    "+\n=\n\n﬩",
     {
       "t": "#000000",
       "w": 2
@@ -50,7 +51,7 @@
     },
     "Tab",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#aaaaaa",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "fa": [
         0,
         0,
@@ -58,48 +59,49 @@
         4
       ]
     },
-    "\nק\n◌ׇ◌\n◌ָ◌\n\n\n\n\n\nQ",
+    "\nק\n◌ׇ\n◌ָ\n\n\n\n\n\nQ",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
-    "ס\nש\nשׂ\nשׁ\n\n\n\n\n\nW",
+    "\nש\nשׂ\nשׁ\n\n\n\n\n\nW",
     {
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
-    "א\nע\n◌ֵ◌\n◌ֶ◌\n\n\n\n\n\nE",
+    "א\nע\n◌ֵ\n◌ֶ\n\n\n\n\n\nE",
     {
-      "t": "#000000\n\n\n\n\n\n\n\n\n#AAAAAA"
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA"
     },
     "\nר\n\n\n\n\n\n\n\nR",
     {
-      "t": "#000000\n\n\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
     "ט\nת\n\nתּ\n\n\n\n\n\nT",
     {
       "f": 3
     },
-    "\nי\n\n◌ֵ◌\n\n\n\n\n\nY",
+    "\nי\n\n◌ֵ\n\n\n\n\n\nY",
     {
       "f": 3
     },
-    "וּ\nו\n\n◌ֻ◌\n\n\n\n\n\nU",
+    "\nו\nוּ\n◌ֻ\n\n\n\n\n\nU",
     {
       "f": 3
     },
-    "\nי\n\n◌ִ◌\n\n\n\n\n\nI",
+    "\nי\n\n◌ִ\n\n\n\n\n\nI",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
-    "וֹ\nו\n◌ׇ◌\n◌ֹ◌\n\n\n\n\n\nO",
+    "\nו\nוֹ\n◌ֹ\n\n\n\n\n\nO",
     {
       "f": 3
     },
     "ף\nפ\nףּ\nפּ\n\n\n\n\n\nP",
     {
-      "t": "#000000\n\n\n#0000fe",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "fa": [
         0,
         0,
@@ -124,7 +126,7 @@
     },
     "Caps Lock",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "fa": [
         0,
         0,
@@ -132,30 +134,30 @@
         4
       ]
     },
-    "ע\nא\n◌ָ◌\n◌ַ◌\n\n\n\n\n\nA",
+    "ע\nא\n◌ָ\n◌ַ\n\n\n\n\n\nA",
     {
-      "t": "#000000\n\n\n\n\n\n\n\n\n#AAAAAA"
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA"
     },
     "ש\nס\n\n\n\n\n\n\n\nS",
     "\nד\n\n\n\n\n\n\n\nD",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
     "ף\nפ\nףּ\nפּ\n\n\n\n\n\nF",
     {
-      "t": "#000000\n\n\n\n\n\n\n\n\n#AAAAAA"
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA"
     },
     "\nג\n\n\n\n\n\n\n\nG",
     "\nה\n\n\n\n\n\n\n\nH",
     "ת\nט\n\n\n\n\n\n\n\nJ",
     {
-      "t": "#000000\n\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA",
       "f": 3
     },
     "ך\nכ\nךּ\nכּ\n\n\n\n\n\nK",
     {
-      "t": "#000000\n\n\n\n\n\n\n\n\n#AAAAAA"
+      "t": "#000000\n#000000\n#0000ff\n#0000ff\n\n\n\n\n\n#AAAAAA"
     },
     "\nל\n\n\n\n\n\n\n\nL",
     {
@@ -166,7 +168,7 @@
       "t": "#000000\n\n#ff0000\n#0000ff",
       "f": 3
     },
-    "\"\n'\n◌ְ◌\n◌ְ◌",
+    "\"\n'\n◌ְ\n◌ְ",
     {
       "t": "#000000",
       "w": 2.25
@@ -203,7 +205,7 @@
       "t": "#000000\n\n\n#0000ff",
       "f": 3
     },
-    ">\n.\n\n◌ּ◌",
+    ">\n.\n\n◌ּ",
     {
       "fa": [
         0,

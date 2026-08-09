@@ -244,14 +244,14 @@ SC00b::Send {Blind}{U+0030} ; 0
 #if
 SC00c::Send {Blind}{U+002d} ; -
 +SC00c::Send {Blind}{U+005f} ; _
->!<^SC00c::Send {Blind}{U+200c} ; ‌
+>!<^SC00c::Return
 +>!<^SC00c::Return
 
 ; QWERTY +
 #if
 SC00d::Send {Blind}{U+003d} ; =
 +SC00d::Send {Blind}{U+002b} ; +
->!<^SC00d::Send {Blind}{U+200d} ; ‍
+>!<^SC00d::Send {Blind}{U+fb29} ; ﬩
 +>!<^SC00d::Return
 
 ; QWERTY Q
@@ -264,7 +264,7 @@ SC010::Send {Blind}{U+05e7} ; ק
 ; QWERTY W
 #if
 SC011::Send {Blind}{U+05e9} ; ש
-+SC011::Send {Blind}{U+05e1} ; ס
++SC011::Return
 >!<^SC011::Send {Blind}{U+05e9}{U+05c1} ; שׁ
 +>!<^SC011::Send {Blind}{U+05e9}{U+05c2} ; שׂ
 
@@ -299,9 +299,9 @@ SC015::Send {Blind}{U+05d9} ; י
 ; QWERTY U
 #if
 SC016::Send {Blind}{U+05d5} ; ו
-+SC016::Send {Blind}{U+05d5}{U+05bc} ; וּ
++SC016::Return
 >!<^SC016::Send {Blind}{U+05bb} ; ֻ
-+>!<^SC016::Return
++>!<^SC016::Send {Blind}{U+05d5}{U+05bc} ; וּ
 
 ; QWERTY I
 #if
@@ -313,9 +313,9 @@ SC017::Send {Blind}{U+05d9} ; י
 ; QWERTY O
 #if
 SC018::Send {Blind}{U+05d5} ; ו
-+SC018::Send {Blind}{U+05d5}{U+05b9} ; וֹ
++SC018::Return
 >!<^SC018::Send {Blind}{U+05b9} ; ֹ
-+>!<^SC018::Send {Blind}{U+05c7} ; ׇ
++>!<^SC018::Send {Blind}{U+05d5}{U+05b9} ; וֹ
 
 ; QWERTY P
 #if

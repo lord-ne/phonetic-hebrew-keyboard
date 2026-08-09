@@ -9,7 +9,7 @@ COMPANY	"N.E."
 
 LOCALEID	"0000040d"
 
-VERSION	1.0
+VERSION	4.0
 
 SHIFTSTATE
 
@@ -30,17 +30,17 @@ LAYOUT
 09	8	0	8	002a	00d7	// QWERTY 8: 8, *, ×
 0a	9	0	9	0028	// QWERTY 9: 9, (
 0b	0	0	0	0029	// QWERTY 0: 0, )
-0c	OEM_MINUS	0	002d	005f	200c	// QWERTY -: -, _, ‌
-0d	OEM_PLUS	0	003d	002b	200d	// QWERTY +: =, +, ‍
+0c	OEM_MINUS	0	002d	005f	// QWERTY -: -, _
+0d	OEM_PLUS	0	003d	002b	fb29	// QWERTY +: =, +, ﬩
 10	Q	0	05e7	-1	05b8	05c7	// QWERTY Q: ק, , ָ, ׇ
-11	W	0	05e9	05e1	%%	%%	// QWERTY W: ש, ס, שׁ:שׁ, שׂ:שׂ
+11	W	0	05e9	-1	%%	%%	// QWERTY W: ש, , שׁ:שׁ, שׂ:שׂ
 12	E	0	05e2	05d0	05b6	05b5	// QWERTY E: ע, א, ֶ, ֵ
 13	R	0	05e8	// QWERTY R: ר
 14	T	0	05ea	05d8	%%	// QWERTY T: ת, ט, תּ:תּ
 15	Y	0	05d9	-1	05b5	// QWERTY Y: י, , ֵ
-16	U	0	05d5	%%	05bb	// QWERTY U: ו, וּ:וּ, ֻ
+16	U	0	05d5	-1	05bb	%%	// QWERTY U: ו, , ֻ, וּ:וּ
 17	I	0	05d9	-1	05b4	// QWERTY I: י, , ִ
-18	O	0	05d5	%%	05b9	05c7	// QWERTY O: ו, וֹ:וֹ, ֹ, ׇ
+18	O	0	05d5	-1	05b9	%%	// QWERTY O: ו, , ֹ, וֹ:וֹ
 19	P	0	05e4	05e3	%%	%%	// QWERTY P: פ, ף, פּ:פּ, ףּ:ףּ
 1a	OEM_4	0	005b	007b	200e	// QWERTY [: [, {, ‎
 1b	OEM_6	0	005d	007d	200f	// QWERTY ]: ], }, ‏
@@ -76,8 +76,8 @@ LIGATURE
 W	6	05e9	05c1	// שׁ
 W	7	05e9	05c2	// שׂ
 T	6	05ea	05bc	// תּ
-U	1	05d5	05bc	// וּ
-O	1	05d5	05b9	// וֹ
+U	7	05d5	05bc	// וּ
+O	7	05d5	05b9	// וֹ
 P	6	05e4	05bc	// פּ
 P	7	05e3	05bc	// ףּ
 F	6	05e4	05bc	// פּ

@@ -22,11 +22,8 @@ klfc: warning: the letter ‘צ’ is not supported on the shiftstate ‘None’
 klfc: warning: the letter ‘ב’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘נ’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘מ’ is not supported on the shiftstate ‘None’ in TMK.
-klfc: warning: the letter ‘ס’ is not supported on the shiftstate ‘Shift’ in TMK.
 klfc: warning: the letter ‘א’ is not supported on the shiftstate ‘Shift’ in TMK.
 klfc: warning: the letter ‘ט’ is not supported on the shiftstate ‘Shift’ in TMK.
-klfc: warning: the letter ‘וּ:וּ’ is not supported on the shiftstate ‘Shift’ in TMK.
-klfc: warning: the letter ‘וֹ:וֹ’ is not supported on the shiftstate ‘Shift’ in TMK.
 klfc: warning: the letter ‘ף’ is not supported on the shiftstate ‘Shift’ in TMK.
 klfc: warning: the letter ‘ע’ is not supported on the shiftstate ‘Shift’ in TMK.
 klfc: warning: the letter ‘ש’ is not supported on the shiftstate ‘Shift’ in TMK.
@@ -39,8 +36,7 @@ klfc: warning: the letter ‘€’ is not supported on the shiftstate ‘AltGr�
 klfc: warning: the letter ‘₪’ is not supported on the shiftstate ‘AltGr’ in TMK.
 klfc: warning: the letter ‘°’ is not supported on the shiftstate ‘AltGr’ in TMK.
 klfc: warning: the letter ‘×’ is not supported on the shiftstate ‘AltGr’ in TMK.
-klfc: warning: the letter ‘‌’ is not supported on the shiftstate ‘AltGr’ in TMK.
-klfc: warning: the letter ‘‍’ is not supported on the shiftstate ‘AltGr’ in TMK.
+klfc: warning: the letter ‘﬩’ is not supported on the shiftstate ‘AltGr’ in TMK.
 klfc: warning: the letter ‘ָ’ is not supported on the shiftstate ‘AltGr’ in TMK.
 klfc: warning: the letter ‘שׁ:שׁ’ is not supported on the shiftstate ‘AltGr’ in TMK.
 klfc: warning: the letter ‘ֶ’ is not supported on the shiftstate ‘AltGr’ in TMK.
@@ -60,6 +56,8 @@ klfc: warning: the letter ‘÷’ is not supported on the shiftstate ‘AltGr�
 klfc: warning: the letter ‘ׇ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘שׂ:שׂ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘ֵ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
+klfc: warning: the letter ‘וּ:וּ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
+klfc: warning: the letter ‘וֹ:וֹ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘ףּ:ףּ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘ָ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
 klfc: warning: the letter ‘ךּ:ךּ’ is not supported on the shiftstate ‘Shift+AltGr’ in TMK.
