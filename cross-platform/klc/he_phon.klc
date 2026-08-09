@@ -33,25 +33,25 @@ LAYOUT
 0c	OEM_MINUS	0	002d	005f	200c	// QWERTY -: -, _, ‌
 0d	OEM_PLUS	0	003d	002b	200d	// QWERTY +: =, +, ‍
 10	Q	0	05e7	-1	05b8	05c7	// QWERTY Q: ק, , ָ, ׇ
-11	W	0	05e9	05e1	%%	%%	// QWERTY W: ש, ס, lig:שׁ, lig:שׂ
+11	W	0	05e9	05e1	%%	%%	// QWERTY W: ש, ס, שׁ:שׁ, שׂ:שׂ
 12	E	0	05e2	05d0	05b6	05b5	// QWERTY E: ע, א, ֶ, ֵ
 13	R	0	05e8	// QWERTY R: ר
-14	T	0	05ea	05d8	%%	// QWERTY T: ת, ט, lig:תּ
+14	T	0	05ea	05d8	%%	// QWERTY T: ת, ט, תּ:תּ
 15	Y	0	05d9	-1	05b5	// QWERTY Y: י, , ֵ
-16	U	0	05d5	%%	05bb	// QWERTY U: ו, lig:וּ, ֻ
+16	U	0	05d5	%%	05bb	// QWERTY U: ו, וּ:וּ, ֻ
 17	I	0	05d9	-1	05b4	// QWERTY I: י, , ִ
-18	O	0	05d5	%%	05b9	05c7	// QWERTY O: ו, lig:וֹ, ֹ, ׇ
-19	P	0	05e4	05e3	%%	%%	// QWERTY P: פ, ף, lig:פּ, lig:ףּ
+18	O	0	05d5	%%	05b9	05c7	// QWERTY O: ו, וֹ:וֹ, ֹ, ׇ
+19	P	0	05e4	05e3	%%	%%	// QWERTY P: פ, ף, פּ:פּ, ףּ:ףּ
 1a	OEM_4	0	005b	007b	200e	// QWERTY [: [, {, ‎
 1b	OEM_6	0	005d	007d	200f	// QWERTY ]: ], }, ‏
 1e	A	0	05d0	05e2	05b7	05b8	// QWERTY A: א, ע, ַ, ָ
 1f	S	0	05e1	05e9	// QWERTY S: ס, ש
 20	D	0	05d3	// QWERTY D: ד
-21	F	0	05e4	05e3	%%	%%	// QWERTY F: פ, ף, lig:פּ, lig:ףּ
+21	F	0	05e4	05e3	%%	%%	// QWERTY F: פ, ף, פּ:פּ, ףּ:ףּ
 22	G	0	05d2	// QWERTY G: ג
 23	H	0	05d4	// QWERTY H: ה
 24	J	0	05d8	05ea	// QWERTY J: ט, ת
-25	K	0	05db	05da	%%	%%	// QWERTY K: כ, ך, lig:כּ, lig:ךּ
+25	K	0	05db	05da	%%	%%	// QWERTY K: כ, ך, כּ:כּ, ךּ:ךּ
 26	L	0	05dc	// QWERTY L: ל
 27	OEM_1	0	003b	003a	// QWERTY ;: ;, :
 28	OEM_7	0	0027	0022	-1	05b0	// QWERTY ': ', ", , ְ
@@ -61,7 +61,7 @@ LAYOUT
 2d	X	0	05d7	// QWERTY X: ח
 2e	C	0	05e6	05e5	// QWERTY C: צ, ץ
 2f	V	0	05d5	// QWERTY V: ו
-30	B	0	05d1	-1	%%	// QWERTY B: ב, , lig:בּ
+30	B	0	05d1	-1	%%	// QWERTY B: ב, , בּ:בּ
 31	N	0	05e0	05df	// QWERTY N: נ, ן
 32	M	0	05de	05dd	// QWERTY M: מ, ם
 33	OEM_COMMA	0	002c	003c	// QWERTY ,: ,, <
