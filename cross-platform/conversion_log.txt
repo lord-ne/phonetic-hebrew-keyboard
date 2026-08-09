@@ -1,6 +1,3 @@
-klfc: warning: unknown field ‘LOCALENAME’.
-klfc: warning: unknown position ‘0409’.
-klfc: warning: dead key ‘ְ’ is not defined.
 klfc: warning: the letter ‘ק’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘ש’ is not supported on the shiftstate ‘None’ in TMK.
 klfc: warning: the letter ‘ע’ is not supported on the shiftstate ‘None’ in TMK.
